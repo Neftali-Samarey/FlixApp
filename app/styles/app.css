@@ -11,8 +11,17 @@
   display: none;
 }
 
+.polkadotMovie {
+  background-color: #0D0B2F;
+  background-image:
+    radial-gradient(#0F0D35 25%, transparent 0), 
+    radial-gradient(#0F0D35 25%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
 .navigationbar {
-  background-color: #0F0D35;
+  /*background-color: #0F0D35;*/
   border-bottom: 3px solid #F4BB8A;
 }
 /* Align both elements horizontlly together next to each other */
