@@ -4,7 +4,7 @@
 }
 
 .container {
-  background-color: #F6F7F3;
+  /* background-color: #F6F7F3; */
 }
 
 .hide {
@@ -21,8 +21,8 @@
 }
 
 .navigationbar {
-  /*background-color: #0F0D35;*/
-  border-bottom: 3px solid #F4BB8A;
+  background-color: #03020A;
+  /* border-bottom: 5px solid #F3C13A; */
 }
 /* Align both elements horizontlly together next to each other */
 .navigationbar > .innerElements {
