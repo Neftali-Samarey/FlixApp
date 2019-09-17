@@ -45,8 +45,19 @@ nav a {
   color: #fff;
 }
 
+.flixlogo {
+  display: flex;
+}
 
 
+.button--search {
+  border:none;
+  height: 40px;
+  background-color: #F3C13A;
+  padding: 9px;
+  font-size: 18px;
+  border-radius: 5px;
+}
 /*Nove these styles outside this file*/
 .searchbox {
   border-radius: 8px;
@@ -66,4 +77,5 @@ nav a {
   width: 600px;
   border: none;
   padding: 8px;
+  vertical-align: bottom
 }
