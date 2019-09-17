@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navigationbar {
+  background-color: #0F0D35;
+}
+/* Align both elements horizontlly together next to each other */
+.navigationbar > .innerElements {
+ display: flex;
+}
+
+.navigationbar .logocontainer img{
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.navigationbar .navigationLinks, .navigationSearchBar {
+  
+  padding: 20px;
+}
+
+/*Nove these styles outside this file*/
+.searchbox {
+  border-radius: 8px;
+  height: 33px;
+  font-size: 23px;
+  max-width: 600px;
+  width: 600px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.searchbox--navigation {
+  font-family: 'Lato', sans-serif;
+  border-radius: 8px;
+  font-size: 20px;
+  max-width: 600px;
+  width: 600px;
+  border: none;
+  padding: 8px;
+}

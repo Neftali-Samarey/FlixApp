@@ -1,5 +1,23 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+{{!-- All Components will be put in place here --}}
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+<div class="container">
+  <div class="navigationbar">
+  <!-- logo container -->
+    <div class="innerElements">
+      <div class="logocontainer">
+        <img src='http://placehold.jp/600x600.png' />
+      </div>
+       <div class="navigationSearchBar">
+        <Input class="searchbox--navigation" type="text" placeholder="Movie Search"/>
+      </div>
+      <div class="navigationLinks">
+        Links
+      </div>
+    </div>
+        <!-- res of the navigation container --> 
+  </div>
+</div>
+
 
 {{outlet}}
