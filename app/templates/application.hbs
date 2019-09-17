@@ -1,18 +1,23 @@
 {{!-- All Components will be put in place here --}}
 <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
+<!-- main document body -->
 <div class="container">
   <div class="navigationbar">
   <!-- logo container -->
     <div class="innerElements">
       <div class="logocontainer">
-        <img src='http://placehold.jp/600x600.png' />
+        <img src='assets/images/flix_logo.png' />
       </div>
        <div class="navigationSearchBar">
         <Input class="searchbox--navigation" type="text" placeholder="Movie Search"/>
       </div>
       <div class="navigationLinks">
-        Links
+        <nav class="hide">
+          <ul><li><a href="">Link</a></li></ul>
+          <ul><li><a href="">Link</a></li></ul>
+        </nav>
+        {{!--{{#nav-link-to "index"}}Home{{/nav-link-to}} --}}
       </div>
     </div>
         <!-- res of the navigation container --> 

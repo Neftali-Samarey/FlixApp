@@ -3,8 +3,17 @@
   margin: 0;
 }
 
+.container {
+  background-color: #F6F7F3;
+}
+
+.hide {
+  display: none;
+}
+
 .navigationbar {
   background-color: #0F0D35;
+  border-bottom: 3px solid #F4BB8A;
 }
 /* Align both elements horizontlly together next to each other */
 .navigationbar > .innerElements {
@@ -12,15 +21,31 @@
 }
 
 .navigationbar .logocontainer img{
-  padding: 10px;
+  padding: 20px;
   height: 60px;
   width: 60px;
 }
 
 .navigationbar .navigationLinks, .navigationSearchBar {
-  
-  padding: 20px;
+  padding: 30px;
 }
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  font-family: 'Lato', sans-serif;
+}
+
+nav a {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+}
+
+
 
 /*Nove these styles outside this file*/
 .searchbox {
@@ -35,7 +60,7 @@
 
 .searchbox--navigation {
   font-family: 'Lato', sans-serif;
-  border-radius: 8px;
+  border-radius: 5px;
   font-size: 20px;
   max-width: 600px;
   width: 600px;
