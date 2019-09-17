@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  /* background-color: #F6F7F3; */
+}
+
+.hide {
+  display: none;
+}
+
+.polkadotMovie {
+  background-color: #0D0B2F;
+  background-image:
+    radial-gradient(#0F0D35 25%, transparent 0), 
+    radial-gradient(#0F0D35 25%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.navigationbar {
+  background-color: #03020A;
+  /* border-bottom: 5px solid #F3C13A; */
+}
+/* Align both elements horizontlly together next to each other */
+.navigationbar > .innerElements {
+ display: flex;
+}
+
+.navigationbar .logocontainer img{
+  padding: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.navigationbar .navigationLinks, .navigationSearchBar {
+  padding: 30px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  font-family: 'Lato', sans-serif;
+}
+
+nav a {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+}
+
+.flixlogo {
+  display: flex;
+}
+
+
+.button--search {
+  border:none;
+  height: 40px;
+  background-color: #F3C13A;
+  padding: 9px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+/*Nove these styles outside this file*/
+.searchbox {
+  border-radius: 8px;
+  height: 33px;
+  font-size: 23px;
+  max-width: 600px;
+  width: 600px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.searchbox--navigation {
+  font-family: 'Lato', sans-serif;
+  border-radius: 5px;
+  font-size: 20px;
+  max-width: 600px;
+  width: 600px;
+  border: none;
+  padding: 8px;
+  vertical-align: bottom
+}
