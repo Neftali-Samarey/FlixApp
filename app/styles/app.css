@@ -67,18 +67,17 @@ nav a {
   display: flex;
 }
 
-
 .button--search {
   border:none;
   height: 40px;
   background-color: #F3C13A;
   padding: 9px;
   font-size: 18px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 /*Nove these styles outside this file*/
 .searchbox {
-  border-radius: 8px;
+  border-radius: 3px;
   height: 33px;
   font-size: 23px;
   max-width: 600px;
