@@ -20,6 +20,15 @@
   background-position: 0 0, 15px 15px;
 }
 
+.polkadotMovie--white {
+  background-color: #fff;
+  background-image:
+    radial-gradient(#fbfbfb 25%, transparent 0), 
+    radial-gradient(#fbfbfb 25%, transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
+
 .navigationbar {
   background-color: #03020A;
   /* border-bottom: 5px solid #F3C13A; */
