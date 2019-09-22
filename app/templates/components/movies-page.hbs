@@ -1,0 +1,28 @@
+{{!-- {{yield}} --}}
+<div class="container-component" style="height: 80vh;"><!-- temporary value-->
+  <!-- Use some conditional statements to see if there is any data in this window -->
+  
+  <button {{action "callMade" bubbles=false}}>Test</button>
+  <div id="popoverContainer" hidden><PopoverCard/></div>
+  {{this.model}}
+
+
+  <!-- SAMPLE MOVIE CARD UI -->
+  <table class="movie-collection-table" border="0" cellpadding="0">
+    <tr>
+      <td>
+        <MovieCard/>
+      </td>
+      <td>
+        <MovieCard/>
+      </td>
+      <td>
+        <MovieCard/>
+      </td>
+    </tr>
+  </table>
+
+
+
+
+</div>
