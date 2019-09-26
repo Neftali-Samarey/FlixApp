@@ -116,13 +116,14 @@ nav a {
 }
 
 
-/*Container component*/ 
+/*Container component that houses the movies*/ 
 .container-component {
   padding: 25px;
   margin-top: 50px;
   border: 1px solid #eee;
   border-radius: 5px;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
+  background-color: rgba(0, 0, 0, 0.5);
   width: 80%!important;
   margin-left: auto;
   margin-right: auto;
@@ -164,4 +165,14 @@ div .inner-card_content {
   width: 100%;
   max-width: 100%;
   border: 1px solid green;
+}
+
+div .inner-card_content h3 {
+  padding: 10px;
+}
+
+/* Defining the sizes for the default movie poster sizing in the UI*/
+.size_d {
+  height: auto;
+  width: 170px;
 }
