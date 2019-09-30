@@ -22,4 +22,10 @@ class MovieItem {
 
 export default Component.extend({
 
+  actions: {
+    details() {
+      alert("View");
+    }
+  }
+
 });
